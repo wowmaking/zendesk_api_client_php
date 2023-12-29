@@ -17,7 +17,7 @@ class Search extends ResourceAbstract
     {
         $this->setRoutes(
             [
-                'find'      => 'search.json',
+                'find'      => 'search/export.json',
                 'anonymous' => 'portal/search.json'
             ]
         );
